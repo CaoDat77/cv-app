@@ -69,8 +69,8 @@ export default function Home() {
             <div className={styles.target}>
               <h2>Mục tiêu nghề nghiệp</h2>
               <p>
-                Trở thành lập trình viện front-end chuyên nghiệp trong vòng 3
-                năm tới
+                Trở thành lập trình viên web front end + React.js chuyên nghiệp
+                trong vòng 3 năm tới
               </p>
             </div>
 
@@ -79,7 +79,8 @@ export default function Home() {
 
               <p>- Cao đẳng nghề Bách Khoa Hà Nội</p>
               <p>
-                - Khóa đào tạo Lập trình Web Front-end tại trung tâm TechMaster
+                - Tốt nghiệp khóa đào tạo lập trình viên web front end + React
+                tại Techmaster 3/2023
               </p>
             </div>
 
@@ -97,7 +98,15 @@ export default function Home() {
                 </a>
               </p>
               <p>- Project cá nhân : Web bán đồ nội thất </p>
-
+              <p>
+                - Thiết kế lấy từ{" "}
+                <a
+                  style={{ color: "blue" }}
+                  href="https://cuthbert.qodeinteractive.com/"
+                >
+                  https://cuthbert.qodeinteractive.com/
+                </a>
+              </p>
               <p>
                 - Github :{" "}
                 <a
@@ -117,6 +126,23 @@ export default function Home() {
                   https://game-one-gamma.vercel.app/
                 </a>
               </p>
+
+              <div className={styles.thumbnail}>
+                <div>
+                  <img src="pic-1.png" alt="" />
+                </div>
+
+                <div>
+                  <img src="pic-2.png" alt="" />
+                </div>
+                <div>
+                  <img src="pic-5.png" alt="" />
+                </div>
+
+                <div>
+                  <img src="pic-4.png" alt="" />
+                </div>
+              </div>
 
               <div
                 style={{

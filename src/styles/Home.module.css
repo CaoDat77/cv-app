@@ -91,3 +91,18 @@
   width: 100%;
   margin-top: -120px;
 }
+
+.thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail div {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.thumbnail img {
+  width: 100%;
+  object-fit: cover;
+}
