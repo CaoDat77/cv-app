@@ -57,11 +57,45 @@ export default function Home() {
             </div>
 
             <div className={styles.target}>
-              <h2>Sở thich</h2>
+              <h2>Sở thích</h2>
               <p> - Nghe nhạc</p>
               <p> - Chơi game </p>
               <p> - Tìm hiểu về đồ công nghệ </p>
               <p> - Xem phim</p>
+            </div>
+
+            <div className={styles.target}>
+              <h2>Blog</h2>
+              <p>
+                <a href="https://techmaster.vn/preview/posts/37342/react-hooks-su-dung-usecontext-va-usereducer-de-thay-the-redux">
+                  - Cách sử dụng useContext và useReduce
+                </a>
+              </p>
+              <p>
+                {" "}
+                <a href="https://techmaster.vn/preview/posts/37364/mot-so-phuong-thuc-mang-huu-ich-trong-es6-javascript">
+                  - Một số phương thức mảng hữu ích trong ES6 JavaScript
+                </a>
+              </p>
+              <p>
+                <a href="https://techmaster.vn/preview/posts/37519/tim-hieu-ve-nextjs">
+                  {" "}
+                  - Tìm hiểu về NextJs{" "}
+                </a>
+              </p>
+              <p>
+                <a href="https://techmaster.vn/preview/posts/37520/tim-hieu-async-await">
+                  {" "}
+                  - Tìm hiểu Async/Await
+                </a>
+              </p>
+
+              <p>
+                <a href="https://techmaster.vn/preview/posts/37521/sass-va-scss">
+                  {" "}
+                  - Sass và Scss
+                </a>
+              </p>
             </div>
           </div>
 
