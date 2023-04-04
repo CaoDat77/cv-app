@@ -88,6 +88,13 @@
 
 .leetCode {
   object-fit: cover;
+  /* object-fit: contain; */
+  width: 100%;
+  height: 100%;
+}
+
+.picLeetCode {
+  object-fit: cover;
   width: 100%;
   margin-top: -120px;
 }
@@ -105,4 +112,30 @@
 .thumbnail img {
   width: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: unset;
+  }
+
+  .left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .right {
+    width: 100%;
+    padding: 0;
+    border: unset;
+  }
+
+  .picLeetCode {
+    display: none;
+  }
 }

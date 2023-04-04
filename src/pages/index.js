@@ -135,8 +135,12 @@ export default function Home() {
 
             <div className={styles.target}>
               <h2>Kinh nghiệm làm việc</h2>
-              <p> - Hoàn thành 150 bài leetcode</p>
-              <img className={styles.leetCode} src="leetcode.png" alt="" />
+              <p> - Hoàn thành 166 bài leetcode</p>
+              <div className={styles.picLeetCode}>
+                {" "}
+                <img className={styles.leetCode} src="leetcode.png" alt="" />
+              </div>
+
               <p style={{ paddingTop: "5px" }}>
                 - Link leetcode:{" "}
                 <a
