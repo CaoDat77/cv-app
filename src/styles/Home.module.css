@@ -138,4 +138,8 @@
   .picLeetCode {
     display: none;
   }
+
+  .pic {
+    padding: 10px 50px;
+  }
 }
